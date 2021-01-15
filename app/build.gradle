@@ -11,6 +11,33 @@ android {
         versionCode 1
         versionName "1.0"
 
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY  : "9fc7b6fb6b28ea06164e4a82",//值来自开发者平台取得的AppKey
+                JPUSH_CHANNEL : "default_developer",
+
+                //meizu_config_start
+                MEIZU_APPKEY  : "MZ-魅族的APPKEY",
+                MEIZU_APPID   : "MZ-魅族的APPID",
+                //meizu_config_end
+                //xiaomi_config_start
+                XIAOMI_APPID  : "MI-小米的APPID",
+                XIAOMI_APPKEY : "MI-小米的APPKEY",
+                //xiaomi_config_end
+                //oppo_config_start
+                OPPO_APPKEY   : "OP-oppo的APPKEY",
+                OPPO_APPID    : "OP-oppo的APPID",
+                OPPO_APPSECRET: "OP-oppo的APPSECRET",
+                //oppo_config_end
+                //vivo_config_start
+                VIVO_APPKEY   : "vivo的APPKEY",
+                VIVO_APPID    : "vivo的APPID",
+                //vivo_config_end
+
+
+        ]
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
