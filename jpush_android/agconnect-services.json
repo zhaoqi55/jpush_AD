@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"2850086000452764631",
+		"product_id":"736430079244778174",
+		"client_id":"538254224320890048",
+		"client_secret":"697090B57DD47AE50C9DD71F476359D80424FE02227BCF23F2AF915708736AF5",
+		"project_id":"736430079244778174",
+		"app_id":"103663735",
+		"api_key":"CgB6e3x90gzccrMT09wzWDYs2VWr986ZTRtskoNJJWMg7EyC/hEgjIW1voR33anIfx3yIYNP+KLa1osyqJ45T6z5",
+		"package_name":"com.zts.firebaseapp"
+	},
+	"configuration_version":"1.0"
+}

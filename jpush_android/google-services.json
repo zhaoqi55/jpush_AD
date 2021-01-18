@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "940562588882",
+    "project_id": "zqpushapp",
+    "storage_bucket": "zqpushapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940562588882:android:6dad5a1e53eca6e3e6390b",
+        "android_client_info": {
+          "package_name": "com.zts.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940562588882-013fq3rqvrujs6rrcrq0tfa3ss0c5muc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zts.firebaseapp",
+            "certificate_hash": "182b475452cbc54fa0d15794afbd33028ffdffc0"
+          }
+        },
+        {
+          "client_id": "940562588882-oqckf73omn7o02tg2oe6rt96i00ohsmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zts.firebaseapp",
+            "certificate_hash": "80563194e75a0aba295978bd7c3c615a09f2868d"
+          }
+        },
+        {
+          "client_id": "940562588882-1mu0q6u726lvghie8aka3llrful7286n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkSOXD1cLFmF255SeQulWK6bOsrW44sUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940562588882-1mu0q6u726lvghie8aka3llrful7286n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
