@@ -17,7 +17,7 @@ import cn.jpush.android.api.JPushInterface;
 import cn.jpush.android.api.JPushMessage;
 
 
-public class PushManager {
+public class CommonPushManager {
     private static final String TAG = "JPUSH-SetAliasAndTags";
     public static int sequence = 1;
     /**
@@ -47,16 +47,16 @@ public class PushManager {
     private Context context;
     private TagAliasBean tagAliasBean = new TagAliasBean();
 
-    private static PushManager mInstance;
+    private static CommonPushManager mInstance;
 
-    private PushManager() {
+    private CommonPushManager() {
     }
 
-    public static PushManager getInstance() {
+    public static CommonPushManager getInstance() {
         if (mInstance == null) {
-            synchronized (PushManager.class) {
+            synchronized (CommonPushManager.class) {
                 if (mInstance == null) {
-                    mInstance = new PushManager();
+                    mInstance = new CommonPushManager();
                 }
             }
         }
