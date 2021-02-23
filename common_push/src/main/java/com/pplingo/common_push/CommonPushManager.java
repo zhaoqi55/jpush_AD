@@ -10,6 +10,8 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.widget.Toast;
 
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.Locale;
 import java.util.Set;
 
@@ -324,6 +326,7 @@ public class CommonPushManager {
 
     public void onAliasOperatorResult(Context context, JPushMessage jPushMessage) {
         int sequence = jPushMessage.getSequence();
+        EventBus.getDefault().post(new ReturnPayResult("xxx"));
         Log.i(TAG, "action - onAliasOperatorResult, sequence:" + sequence + ",alias:" + jPushMessage.getAlias());
         setCurrentAlias(jPushMessage.getAlias());
         init(context);

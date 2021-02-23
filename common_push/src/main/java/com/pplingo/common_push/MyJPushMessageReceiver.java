@@ -7,6 +7,8 @@ package com.pplingo.common_push;
 
 import android.content.Context;
 
+import org.greenrobot.eventbus.EventBus;
+
 import cn.jpush.android.api.JPushMessage;
 import cn.jpush.android.service.JPushMessageReceiver;
 
@@ -27,6 +29,7 @@ public class MyJPushMessageReceiver extends JPushMessageReceiver {
     }
     @Override
     public void onAliasOperatorResult(Context context, JPushMessage jPushMessage) {
+
         CommonPushManager.getInstance().onAliasOperatorResult(context,jPushMessage);
         super.onAliasOperatorResult(context, jPushMessage);
     }
