@@ -57,4 +57,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.te' + 'st.espresso:espresso-core:3.3.0'
     implementation project(path: ':jpush_android')
+
 }
